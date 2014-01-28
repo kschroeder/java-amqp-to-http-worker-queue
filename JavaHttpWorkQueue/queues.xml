@@ -1,0 +1,12 @@
+<queues>
+	<queue>
+		<userName>guest</userName>
+		<password>guest</password>
+		<virtualHost>/</virtualHost>
+		<hostName>localhost</hostName>
+		<port>5672</port>
+		<queueName>jobrequests</queueName>
+		<workerCount>10</workerCount>
+		<httpQueueUrl>http://localhost/queue</httpQueueUrl>
+	</queue>
+</queues>
