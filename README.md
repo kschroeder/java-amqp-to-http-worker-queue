@@ -9,7 +9,8 @@ This project is based off of a need to have a web-based application push message
 
 If you are a Java developer who comes across this and vomits on your screen when you see the code please feel free to re-implement, as long as the simplicity remains.  My intent is to have this work like the following:
 
-
+~~~
 web 1 \                                                                   / HTTP server 1
 web 2 - message queue -> java-amqp-to-http-worker-queue -> load balancer  - HTTP server 2
 web 3 /                                                                   \ HTTP server 3
+~~~
